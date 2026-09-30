@@ -33,11 +33,10 @@ test:
 
 about:
   home: https://metacpan.org/pod/Exporter::Tidy
-  license: Any-OSI-Approved
+  license: any-OSI-perl-modules
   license_family: OTHER
   summary: 'Another way of exporting symbols'
-  license_file:
-    - {{ environ["PREFIX"] }}/lib/perl5/core_perl/pod/perlartistic.pod
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
